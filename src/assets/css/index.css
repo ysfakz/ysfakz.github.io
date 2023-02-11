@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #c28382;
+}
+.container{
+    background-color: #bd5857;
+    border-radius: 25px;
+    width: 500px;
+    height: 500px;
+    margin: 25vh auto auto;
+    text-align: center;
+}
+.container button{
+    width: 450px;
+    height: 75px;
+    margin-top: 43vh;
+    background-color: #994443;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition:.3s;
+}
+.container button:hover{
+    transform: scale(105%);
+    background-color: #823938;
+    border-color: red;
+    color: red;
+}
